@@ -13,7 +13,7 @@ const app = express();
 	});
 
 	app.listen(3000, () => {
-		console.log(process.env.SAMPLE);
+		console.log(process.env.sample);
 		console.log(`server running on port :: 3000`);
 	});
 })();
