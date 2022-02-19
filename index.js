@@ -15,6 +15,7 @@ const app = express();
 	app.listen(3001, () => {
 		console.log(process.env.sample);
 		console.log(process.env.another);
+		console.log('Oh yes');
 		console.log(`server running on port :: 3000`);
 	});
 })();
