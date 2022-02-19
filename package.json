@@ -4,6 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
+		"before": "mkdir before",
+		"after": "mkdir after",
 		"start": "node index.js"
 	},
 	"keywords": [],
