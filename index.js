@@ -12,8 +12,9 @@ const app = express();
 		res.send('You are here');
 	});
 
-	app.listen(3000, () => {
+	app.listen(3001, () => {
 		console.log(process.env.sample);
+		console.log(process.env.another);
 		console.log(`server running on port :: 3000`);
 	});
 })();
