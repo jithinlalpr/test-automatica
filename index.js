@@ -12,10 +12,10 @@ const app = express();
 		res.send('You are here');
 	});
 
-	app.listen(3001, () => {
+	app.listen(process.env.PORT, () => {
 		console.log(process.env.sample);
 		console.log(process.env.another);
 		console.log('Oh yes');
-		console.log(`server running on port :: 3000`);
+		console.log(`server running on port :: ${process.env.PORT}`);
 	});
 })();
