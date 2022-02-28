@@ -13,7 +13,7 @@ const app = express();
 	});
 
 	app.listen(process.env.PORT, () => {
-		console.log('This is re-deployed!');
+		console.log('This is tested!');
 		console.log(`server running on port :: ${process.env.PORT}`);
 	});
 })();
